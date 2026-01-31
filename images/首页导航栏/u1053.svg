@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="97px" height="76px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="968px" height="58px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip517">
-      <path d="M 1803 244  L 1856 244  L 1856 266  L 1803 266  Z M 1780 216  L 1877 216  L 1877 292  L 1780 292  Z " fill-rule="evenodd" />
-    </mask>
+    <filter x="2923px" y="449px" width="968px" height="58px" filterUnits="userSpaceOnUse" id="filter1197">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.2 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget1198">
+      <path d="M 2923 449  L 3881 449  L 3881 497  L 2923 497  L 2923 449  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" />
+    </g>
   </defs>
-  <g transform="matrix(1 0 0 1 -1780 -216 )">
-    <path d="M 1780.5 216.5  L 1876.5 216.5  L 1876.5 291.5  L 1780.5 291.5  L 1780.5 216.5  Z " fill-rule="nonzero" fill="#f2f2f2" stroke="none" />
-    <path d="M 1780.5 216.5  L 1876.5 216.5  L 1876.5 291.5  L 1780.5 291.5  L 1780.5 216.5  Z " stroke-width="1" stroke="#797979" fill="none" />
-    <path d="M 1780.50233389416 216.393581195425  L 1876.49766610584 291.606418804575  M 1876.49766610584 216.393581195425  L 1780.50233389416 291.606418804575  " stroke-width="1" stroke="#797979" fill="none" mask="url(#clip517)" />
+  <g transform="matrix(1 0 0 1 -2923 -449 )">
+    <use xlink:href="#widget1198" filter="url(#filter1197)" />
+    <use xlink:href="#widget1198" />
   </g>
 </svg>
